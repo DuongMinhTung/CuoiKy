@@ -100,7 +100,7 @@ while capture.isOpened():
     cv2.imshow("Gesture", frame)
 
     
-    if cv2.waitKey(1) == ord('q'):
+    if cv2.waitKey(1) == ord('t'):
         break
 
 capture.release()
